@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Work1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Italiana&family=Noto+Serif+JP:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <a href="index.html#top">
+                <div class="site-title">Aki Portfolio</div>
+            </a>
+            <nav>
+                <ul>
+                    <!-- <div class="site-title-sp">Aki Portfolio</div> -->
+                    <li><a href="index.html#top">Top</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <main class="Work">
+
+        <div class="cotainer">
+
+            <section class="hero-section left">
+                <div class="hero-info">
+                    <h2>もりの</h2>
+                    <div class="work-body2">
+                        <div class="tag">デザイン</div>
+                        <!-- <div class="tag2">コーディング</div> -->
+                    </div>
+                    <!-- <a href="https://orijinal01.netlify.app" class="site-link">orijinal01.netlify.app</a> -->
+                </div>
+
+                <div class="hero-image">
+                    <img src="img/もりの②.png" alt="もりの②">
+                </div>
+            </section>
+
+            <div class="overview-section balloon">
+                <div class="overview-box">
+
+                    <div class="row">
+                        <h3>概要</h3>
+                        <p>HP</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作目的</h3>
+                        <p>
+                            Webサイトを通じて予約数の増加を実現すること。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>ターゲット</h3>
+                        <p>・20代〜50代の男女<br>
+                            ・仕事や人間関係に疲れている方<br>
+                            ・癒しを求める個人・カップル・小グループ<br>
+                            ・都会から離れてリラックスした時間を過ごしたい層</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>こだわり</h3>
+                        <p>
+                            高級感がありながら温もりのあるデザインを意識しました。
+                            配色は深い森を思わせるグリーンと、木の温もりを感じるベージュを基調にし、フォントには「Noto Serif JP」を用い、上質で落ち着いた印象を与えるように心がけました。
+                            金色を差し込むことで、ぬくもりの中にも特別感を演出しています。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>担当範囲</h3>
+                        <p>デザイン</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>レスポンシブ</h3>
+                        <p>PC / SP</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作期間</h3>
+                        <p>1ヶ月</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>使用ツール</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-sign">▼スクロールしてご覧ください。</div>
+            <div class="screenshots-section balloon">
+
+                <div class="screenshot_pc">
+                    <img src="img/もりの_pc.png" alt="もりの_pc">
+                </div>
+
+                <div class="screenshot_sp">
+                    <img src="img/もりの_sp.png" alt="もりの_sp.">
+                </div>
+            </div>
+
+            <div class="btn">
+                <a class="view-more" href="works.html">一覧へ戻る →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a class="to-top" href="#"></a>
+        <p>© Aki Portfolio</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function showConfirmation() {
+            document.getElementById('confirmation').style.display = 'block';
+            return false; // デモ用に送信をブロック -->
+        }
+    </script>
+    <script>
+        const today = new Date().toISOString().split('T')[0];
+        document.querySelector('input[type="date"]').setAttribute('min', today);
+    </script>
+
+
+</body>
+
+</html>

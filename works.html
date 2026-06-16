@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Works</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Italiana&family=Noto+Serif+JP:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <a href="index.html#top"><div class="site-title">Aki Portfolio</div></a>
+            <nav>
+                <ul>
+                    <!-- <div class="site-title-sp">Aki Portfolio</div> -->
+                    <li><a href="index.html#top">Top</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+
+    <section class="works2" id="works2">
+        <div class="wrap">
+            <h2 class="section-title">Works</h2>
+            <div class="section-sub">制作したもの</div>
+
+
+            <div class="works-grid">
+
+                <article class="work-card">
+                    <a href="work2.html">
+                        <div class="work-thumb">
+                            <img src="img/Fresh vege.png" alt="Fresh vege">
+                        </div>
+                        <div class="work-body">
+                            <div class="tag">デザイン</div>
+                            <h3 class="title">Fresh vege</h3>
+                        </div>
+                    </a>
+                </article>
+
+
+                <article class="work-card">
+                     <a href="work3.html">
+
+                         <div class="work-thumb">
+                             <img src="img/もりの.png" alt="もりの">
+                            </div>
+                            <div class="work-body">
+                                <div class="tag">デザイン</div>
+                                <h3 class="title">もりの</h3>
+                            </div>
+                        </a>
+                </article>
+
+
+                <article class="work-card">
+                    <a href="work4.html">
+
+                        <div class="work-thumb">
+                            <img src="img/Luminous Bloom.png" alt="Luminous Bloom">
+                        </div>
+                        <div class="work-body">
+                            <div class="tag">デザイン</div>
+                            <h3 class="title">Luminous Bloom</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="work-card">
+                    <a href="work1.html">
+
+                        <div class="work-thumb">
+                            <img src="img/お弁当キッチン.png" alt="お弁当キッチン">
+                        </div>
+                        <div class="work-body">
+                            <div class="tag">デザイン</div>
+                            <div class="tag2">コーディング</div>
+                            <h3 class="title">お弁当キッチン</h3>
+                        </div>
+                    </a>
+                </article>
+
+
+                <article class="work-card">
+                    <a href="work5.html">
+
+                        <div class="work-thumb">
+                            <img src="img/○○○○病院.png" alt="○○○○病院">
+                        </div>
+                        <div class="work-body">
+                            <div class="tag">デザイン</div>
+                            <div class="tag2">コーディング</div>
+                            <h3 class="title">○○○○病院</h3>
+                        </div>
+                    </a>
+                </article>
+
+
+                <article class="work-card">
+                    <a href="work6.html">
+
+                        <div class="work-thumb">
+                            <img src="img/鉄板焼き機 グリドルレンタル専門店.png" alt="鉄板焼き機 グリドルレンタル専門店">
+                        </div>
+                        <div class="work-body">
+                            <div class="tag">デザイン</div>
+                            <div class="tag2">コーディング</div>
+                            <h3 class="title">鉄板焼き機 ｸﾞﾘﾄﾞﾙﾚﾝﾀﾙ専門店</h3>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <a class="to-top" href="#"></a>
+        <p>© Aki Portfolio</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function showConfirmation() {
+            document.getElementById('confirmation').style.display = 'block';
+            return false; // デモ用に送信をブロック -->
+        }
+    </script>
+    <script>
+        const today = new Date().toISOString().split('T')[0];
+        document.querySelector('input[type="date"]').setAttribute('min', today);
+    </script>
+
+
+</body>
+
+</html>
