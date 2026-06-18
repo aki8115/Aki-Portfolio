@@ -569,14 +569,14 @@ forwards：アニメーション終了時の状態をそのまま維持
 } */
 
 .left {
-  opacity: 0;
-  transform: translateX(-24px);
+    opacity: 0;
+    transform: translateX(-24px);
 }
 
 .slide-left {
-  opacity: 1;
-  transform: translateX(0);
-  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
 }
 
 
@@ -1042,6 +1042,11 @@ footer {
     /* border: 1px solid green; */
     padding: 0 3%;
     /* width: 550px; */
+}
+
+.img2 {
+    /* border: 1px solid; */
+    width: 55%;
 }
 
 /* Overview box */
