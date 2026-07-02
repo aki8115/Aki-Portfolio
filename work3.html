@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Allura&family=Italiana&family=Noto+Serif+JP:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css" />
 </head>
 
 <body>
@@ -47,13 +48,13 @@
                     <h2>もりの</h2>
                     <div class="work-body2">
                         <div class="tag">デザイン</div>
-                        <!-- <div class="tag2">コーディング</div> -->
+                        <div class="tag2">コーディング</div>
                     </div>
-                    <!-- <a href="https://orijinal01.netlify.app" class="site-link">orijinal01.netlify.app</a> -->
+                    <a href="https://aki8115.github.io/morino_hotel/" class="site-link">https://aki8115.github.io/morino_hotel/</a>
                 </div>
 
                 <div class="hero-image">
-                    <img src="img/もりの②.png" alt="もりの②">
+                    <img src="img/morino②.png" alt="morino②">
                 </div>
             </section>
 
@@ -106,7 +107,7 @@
 
                     <div class="row">
                         <h3>使用ツール</h3>
-                        <p>Figma</p>
+                        <p>Figma、VSCode、WordPress</p>
                     </div>
                 </div>
             </div>
@@ -115,18 +116,62 @@
             <div class="screenshots-section balloon">
 
                 <div class="screenshot_pc">
-                    <img src="img/もりの_pc.png" alt="もりの_pc">
+                    <img src="img/morino_pc.png" alt="morino_pc">
                 </div>
 
                 <div class="screenshot_sp">
-                    <img src="img/もりの_sp.png" alt="もりの_sp.">
+                    <img src="img/morino_sp.png" alt="morino_sp.">
                 </div>
             </div>
 
             <div class="btn">
                 <a class="view-more" href="works.html">一覧へ戻る →</a>
             </div>
+
+            <p class="wp-title">WordPress管理画面▼予約の流れ▼</p>
+
+
+
+            <div class="wp-imgs">
+
+                <a href="img/morino-wp-img.png" class="wp-img" data-fancybox="works">
+
+                    <img src="img/morino-wp-img.png" alt="空室を検索する">
+                    <span>①空室を検索する</span>
+                </a>
+
+                <a href="img/morino-wp-img2.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img2.png" alt="宿泊予約">
+                    <span>②宿泊予約</span>
+                </a>
+
+                <a href="img/morino-wp-img3.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img3.png" alt="空きがあります">
+                    <span>③空きがあります</span>
+                </a>
+
+                <a href="img/morino-wp-img4.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img4.png" alt="予約する">
+                    <span>④予約する<br>※②で入力したものが<br>自動で入ります。</span>
+                </a>
+
+                <a href="img/morino-wp-img5.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img5.png" alt="マイページ">
+                    <span>⑤マイページ</span>
+                </a>
+
+                <a href="img/morino-wp-img6.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img6.png" alt="予約詳細">
+                    <span>⑥予約詳細</span>
+                </a>
+
+                <a href="img/morino-wp-img7.png" class="wp-img" data-fancybox="works">
+                    <img src="img/morino-wp-img7.png" alt="予約キャンセル">
+                    <span>⑦予約キャンセル</span>
+                </a>
+            </div>
         </div>
+
     </main>
 
     <footer>
@@ -148,7 +193,19 @@
         document.querySelector('input[type="date"]').setAttribute('min', today);
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
 
+    <script>
+        Fancybox.bind("[data-fancybox='works']", {
+            Toolbar: {
+                display: {
+                    left: [],
+                    middle: [],
+                    right: ["close"],
+                },
+            },
+        });
+    </script>
 </body>
 
 </html>
