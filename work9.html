@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Work9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Italiana&family=Noto+Serif+JP:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <a href="index.html#top">
+                <div class="site-title">Aki Portfolio</div>
+            </a>
+            <nav>
+                <ul>
+                    <!-- <div class="site-title-sp">Aki Portfolio</div> -->
+                    <li><a href="index.html#top">Top</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <main class="Work">
+
+        <div class="cotainer">
+
+            <div class="hero-section left">
+                <div class="hero-info">
+                    <h2>みんなのクリニック</h2>
+                    <div class="work-body2">
+                        <div class="tag">デザイン</div>
+                        <div class="tag2">コーディング</div>
+                    </div>
+                    <a href="https://aki8115.github.io/MinnanoCL/"
+                        class="site-link">https://aki8115.github.io/MinnanoCL/</a>
+                </div>
+
+                <div class="hero-image img2">
+                    <img src="img/みんなのクリニック②.png" alt="みんなのクリニック②">
+                </div>
+            </div>
+
+            <div class="overview-section balloon">
+                <div class="overview-box">
+
+                    <div class="row">
+                        <h3>概要</h3>
+                        <p>HP</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作目的</h3>
+                        <p>
+                            地域の方が安心して来院できるよう、親しみやすさと信頼感を両立したクリニックサイトを制作。診療案内やお問い合わせへの導線をわかりやすく設計し、来院につながることを目的としました。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>ターゲット</h3>
+                        <p>近隣にお住まいの幅広い年代の方。特に、小さなお子さま連れのご家族や初めて来院する方など、安心して相談できるクリニックを探している方。</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>こだわり</h3>
+                        <p>
+                            安心感を与える淡いグリーンやピンクを基調とし、やさしく温かみのあるデザインに仕上げました。診療時間や診療案内、お問い合わせなど必要な情報へ迷わずアクセスできる導線を意識し、
+                            初めて来院する方でも安心して利用できる構成にしています。また、スマートフォンでも見やすく操作しやすいレスポンシブデザインを採用しました。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>担当範囲</h3>
+                        <p>デザイン、コーディングを含む全て</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>レスポンシブ</h3>
+                        <p>PC / SP</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作期間</h3>
+                        <p>2週間</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>使用ツール</h3>
+                        <p>VSCode、Figma</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="scroll-sign">▼スクロールしてご覧ください。</div>
+            <div class="screenshots-section balloon">
+
+                <div class="screenshot_pc">
+                    <img src="img/みんなのクリニック_pc.png" alt="みんなのクリニック_pc">
+                </div>
+
+                <div class="screenshot_sp">
+                    <img src="img/みんなのクリニック_sp.png" alt="みんなのクリニック_sp">
+                </div>
+            </div>
+
+            <div class="btn">
+                <a class="view-more" href="works.html">一覧へ戻る →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a class="to-top" href="#"></a>
+        <p>© Aki Portfolio</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function showConfirmation() {
+            document.getElementById('confirmation').style.display = 'block';
+            return false; // デモ用に送信をブロック -->
+        }
+    </script>
+    <script>
+        const today = new Date().toISOString().split('T')[0];
+        document.querySelector('input[type="date"]').setAttribute('min', today);
+    </script>
+
+
+</body>
+
+</html>
