@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>work11</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Italiana&family=Noto+Serif+JP:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <a href="index.html#top">
+                <div class="site-title">Aki Portfolio</div>
+            </a>
+            <nav>
+                <ul>
+                    <!-- <div class="site-title-sp">Aki Portfolio</div> -->
+                    <li><a href="index.html#top">Top</a></li>
+                    <li><a href="index.html#works">Works</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <main class="Work">
+
+        <div class="cotainer">
+
+            <div class="hero-section left">
+                <div class="hero-info">
+                    <h2>ハチ駆除レスキューLP</h2>
+                    <div class="work-body2">
+                        <div class="tag">デザイン</div>
+                        <div class="tag2">コーディング</div>
+                    </div>
+                    <a href="http://hachikujo-rescue.com" class="site-link">http://hachikujo-rescue.com</a>
+                </div>
+
+                <!-- <div class="hero-image img2"> -->
+                <!-- <img src="img/ハチ駆除レスキュー②.png" alt="ハチ駆除レスキューLP②"> -->
+                <!-- </div> -->
+            </div>
+
+            <div class="overview-section balloon">
+                <div class="overview-box">
+
+                    <div class="row">
+                        <h3>概要</h3>
+                        <p>LP</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作目的</h3>
+                        <p>
+                            ハチやハチの巣を見つけて困っている方に、対応の早さや実績、料金などのサービスの強みをわかりやすく伝え、電話・メールからの問い合わせや駆除依頼につなげることを目的に制作しました。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>ターゲット</h3>
+                        <p>自宅や敷地内でハチ・ハチの巣を発見し、安全のためできるだけ早く駆除を依頼したい方。
+                            特に、料金や業者選びに不安があり、実績・対応スピード・料金のわかりやすさ・安心感を重視する一般家庭の方。</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>こだわり</h3>
+                        <p>
+                            緊急性の高いサービスのため、ファーストビューで「対応スピード」「実績」「料金」などの強みが一目で伝わる構成にしました。
+                            黄色とグリーンを基調に視認性を高め、電話番号や問い合わせボタンを各所に配置することで、必要なタイミングですぐ行動できる導線を設計。
+                            実績やお客様の声、作業内容なども掲載し、初めて依頼する方の不安を軽減できるよう、安心感とわかりやすさを重視したLPに仕上げています。
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <h3>担当範囲</h3>
+                        <p>デザイン、コーディングを含む全て</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>制作期間</h3>
+                        <p>１ヶ月</p>
+                    </div>
+
+                    <div class="row">
+                        <h3>使用ツール</h3>
+                        <p>Figma</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="scroll-sign">▼スクロールしてご覧ください。</div>
+            <div class="screenshots-section balloon sp_only">
+
+                <!-- <div class="screenshot_pc"> -->
+                <!-- <img src="img/ハチ駆除レスキュー_sp.png" alt="ハチ駆除レスキューLP"> -->
+                <!-- </div> -->
+
+                <div class="screenshot_sp">
+                    <img src="img/ハチ駆除レスキュー_sp.png" alt="ハチ駆除レスキューLP">
+                </div>
+            </div>
+
+            <div class="btn">
+                <a class="view-more" href="works.html">一覧へ戻る →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a class="to-top" href="#"></a>
+        <p>© Aki Portfolio</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        function showConfirmation() {
+            document.getElementById('confirmation').style.display = 'block';
+            return false; // デモ用に送信をブロック -->
+        }
+    </script>
+    <script>
+        const today = new Date().toISOString().split('T')[0];
+        document.querySelector('input[type="date"]').setAttribute('min', today);
+    </script>
+
+
+</body>
+
+</html>

@@ -1130,6 +1130,14 @@ footer {
     margin-bottom: 80px;
 }
 
+.pc_only {
+    display: none;
+}
+
+.sp_only {
+    justify-content: center;
+}
+
 .screenshot_pc,
 .screenshot_sp {
     overflow-y: scroll;
